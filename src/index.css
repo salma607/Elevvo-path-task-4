@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+
+ :root {
+    --color-beige:#E9E3DF;
+     --color-pink:#e16688;
+     --color-babypink:#FFEAEA;
+     --color-gray:#7A7A73;
+     --color-black:#000000;
+    
+        --color-gradient:linear-gradient(50deg,#D92C54 0%, #eaafc8 60%);
+     
+
+
+
+
+
+
+
+   
+
+    --font-main : "Arial", serif;
+  
+}
+
+body {
+    font-family: var(--font-main) !important;
+    background-color: black;
+  } 
+
+
+
+
