@@ -10,8 +10,10 @@ export default function Card() {
       </div>
       <div style={cardStyles.title}>Website Design</div>
       <p style={cardStyles.description}>
-        Leverage agile frameworks to provide a robust synopsis for high level
-        overviews. Iterative approaches to corporate
+        focuses on creating websites that are both attractive and easy to use. A
+        good design helps visitors quickly find the information they need and
+        enjoy their experience on the site.
+      
       </p>
     </div>
   );

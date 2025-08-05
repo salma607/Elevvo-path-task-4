@@ -30,10 +30,8 @@ export default function List() {
         <a href="#service">Services</a>
       </li>
 
-      <li>Projects</li>
-
       <li>
-        <a href="#about">About Me</a>
+         <a href="#Projects">Projects</a>
       </li>
 
       {/* Contact button in mobile menu */}

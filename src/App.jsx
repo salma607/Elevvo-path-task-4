@@ -4,6 +4,7 @@ import Footer from "./Component/Footer/Footer";
 import Header from "./Component/Header/Header";
 import Home from "./Pages/Home/Home";
 import Service from "./Pages/Service/Service"
+import ContactMe from "./Pages/ContactMe/ContactMe";
 
  export default function App() {
   return (
@@ -20,6 +21,10 @@ import Service from "./Pages/Service/Service"
       <Route
       path="/S"
       element={<Service/>}/>
+      <Route
+      path="/contact"
+      element={<ContactMe/>}/>
+
     </Routes>
   )
 }

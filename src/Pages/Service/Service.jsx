@@ -1,20 +1,19 @@
-import Card from "../../Component/Card/Card"; // Adjust the path as needed
+import Card from "../../Component/Card/Card";
+
 export default function Service() {
   return (
-    <section id="service">
+    <section 
+      id="service" 
+      className="min-h-screen flex flex-col items-center justify-center p-2"
+    >
       <h1 
-      style={{ fontSize:"35px",
-        color:"var(--color-pink)",
-        fontWeight:"bold",
-        justifyContent:"center",
-        display:"flex"
-        
-
-      }} >
+        className="text-4xl font-bold m-8"
+        style={{ color: "var(--color-pink)" }}
+      >
         Look at my services
       </h1>
+      
       <Card />
-  
     </section>
   );
 }

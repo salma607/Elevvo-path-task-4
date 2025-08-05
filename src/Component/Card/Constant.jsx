@@ -2,7 +2,7 @@ export const cardStyles = {
    container: {
   borderRadius: "12px",
   width: "340px",
-  minHeight: "300px",
+  minHeight: "400px",
   padding: "32px 24px",
   boxSizing: "border-box",
   position: "relative",
@@ -10,7 +10,7 @@ export const cardStyles = {
   display: "flex",
   flexDirection: "column",
   justifyContent: "flex-start",
-  margin: "40px auto",
+  margin: "20px auto",
   transition: "transform 0.3s ease, box-shadow 0.3s ease", // Add transition
   "&:hover": {
     transform: "translateY(-5px)", // Moves card up slightly
