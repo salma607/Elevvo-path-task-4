@@ -20,19 +20,26 @@ export default function Header() {
       </button>
 
       {/* Navigation */}
-      <nav
-        className={`
-          flex-1 flex justify-center
-          ${
-            menuOpen
-              ? "fixed inset-0 flex flex-col justify-center items-center bg-[var(--color-black)] z-10"
-              : "hidden"
-          }
-          lg:flex lg:static lg:bg-transparent lg:flex-row
-        `}
-      >
-        <NavigationList setMenuOpen={setMenuOpen} />
-      </nav>
+     <nav
+  className={`
+    fixed top-0 right-0 h-full w-64 bg-[var(--color-black)] z-40
+    transform transition-transform duration-300 ease-in-out
+    ${menuOpen ? "translate-x-0" : "translate-x-full"}
+    flex flex-col items-center justify-center
+    lg:static lg:translate-x-0 lg:flex-row lg:h-auto lg:w-auto lg:bg-transparent lg:transition-none
+    ${menuOpen ? "" : "hidden lg:flex"}
+  `}
+>
+  {/* Close button for mobile */}
+  <button
+    className="absolute top-4 right-4 lg:hidden"
+    onClick={() => setMenuOpen(false)}
+    aria-label="Close navigation menu"
+  >
+    <span className="text-3xl text-[var(--color-beige)]">&times;</span>
+  </button>
+  <NavigationList setMenuOpen={setMenuOpen} />
+</nav>
 
       {/* Contact Me Button (desktop only) */}
       <a

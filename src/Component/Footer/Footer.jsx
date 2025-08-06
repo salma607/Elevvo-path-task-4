@@ -34,7 +34,7 @@ export default function Footer() {
         </div>
         <div className="flex space-x-5">
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/salma607"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub"
@@ -42,7 +42,7 @@ export default function Footer() {
             <GitHubIcon sx={iconStyle} />
           </a>
           <a
-            href="https://linkedin.com/in/yourusername"
+            href="https://www.linkedin.com/in/salma-ahmed-amin/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn"
@@ -53,7 +53,7 @@ export default function Footer() {
             <EmailIcon sx={iconStyle} />
           </a>
           <a
-            href="https://facebook.com/yourusername"
+            href="https://www.facebook.com/salma25oct/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Facebook"
