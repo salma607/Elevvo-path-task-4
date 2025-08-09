@@ -8,9 +8,9 @@ export default function Card() {
       <div style={cardStyles.iconContainer}>
         <DesignServicesIcon sx={cardStyles.icon} />
       </div>
-      <div style={cardStyles.title}>Website Design</div>
+      <div style={cardStyles.title}>Web App Design </div>
       <p style={cardStyles.description}>
-        focuses on creating websites that are both attractive and easy to use. A
+        focuses on creating web Application that are both attractive and easy to use. A
         good design helps visitors quickly find the information they need and
         enjoy their experience on the site.
       
